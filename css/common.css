@@ -24,3 +24,12 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+#boxes {
+  margin-top: 8px;
+}
+
+.box {
+  margin-bottom: 8px;
+
+}

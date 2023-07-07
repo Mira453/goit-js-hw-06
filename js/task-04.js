@@ -7,14 +7,14 @@ let counterValue = number.value;
 counterValue = 0;
 
 
-const addhandler = () => {
+const handleBtnRightClick = () => {
     counterValue += 1;
     number.textContent = counterValue;
 };
-const removehandler = () => {
+const  handlerBtnLeftClick = () => {
     counterValue -= 1;
     number.textContent = counterValue;
 }
-btnright.addEventListener("click", addhandler);
-btnLeft.addEventListener("click", removehandler);
+btnright.addEventListener("click", handleBtnRightClick);
+btnLeft.addEventListener("click",  handlerBtnLeftClick);
 
